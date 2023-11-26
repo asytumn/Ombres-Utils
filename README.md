@@ -75,7 +75,7 @@ busyboxdir=${depsdir}/busybox
 busybox_tag=1_35_0
 
 # Rootfs and VM configuration
-hostname=wintermute
+hostname=Ombres
 rootfs_size=512m
 memory=512
 
@@ -92,7 +92,7 @@ kernel_arch=x86_64
 boot_into_initrd_shell=n
 
 # Set this to yes to stop the CPU at boot and wait for debugger
-wait_for_gdb_at_boot=n
+wait_for_gdb_at_boot=y
 qemu_debug_args="-s -S"
 ```
 
